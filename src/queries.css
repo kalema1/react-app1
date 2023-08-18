@@ -1,0 +1,233 @@
+/**********************************************/
+/* BELOW 1296px*/
+/**********************************************/
+
+@media (max-width: 81em) {
+    .section-why-grid {
+        grid-template-columns: 1fr 2fr;
+    }
+    .heading-tertiary {
+        font-size: 2rem;
+    }
+}
+/**********************************************/
+/* BELOW 1165px*/
+/**********************************************/
+
+@media (max-width: 73em) {
+    .sec-start-flex {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 9.6rem;
+    }
+    .sec-start-hdg-box {
+        width: 100%;
+      }
+}
+
+/**********************************************/
+/* BELOW 1027px*/
+/**********************************************/
+
+@media (max-width: 64em) {
+    .grid--2-col {
+        grid-template-columns: 1fr;
+    }
+    .grid {
+        gap: 6.4rem;
+    }
+    .hero-img-container {
+        grid-row: 1;
+    }
+    .crown-element {
+        top: 19.5%;
+    }
+    .hero-sm-circle {
+        top: 29.5%;
+    }
+    .hero-award-ele {
+        right: 18%
+    }
+    .hero-btn-container {
+        text-align: center;
+    }
+    .section-why-grid {
+        grid-template-columns: 1fr;
+    }
+    .sec-help-bg-cl {
+        left: 7%;
+    }
+    .sec-help-sm-cl-1 {
+        left: 27%;
+    }
+    .sec-help-sm-cl-2 {
+        right: 21.5%;
+    }
+    .sec-help-ryt-hdg-box{
+        text-align: center;
+    }
+    .sec-dis-grid-container {
+        grid-template-columns: 1fr;
+    }
+    .headg-box {
+        width: 60%;
+    }
+    .sec-start-flex {
+        gap: 5.2rem;
+    }
+}
+
+/**********************************************/
+/* BELOW 866px*/
+/**********************************************/
+
+@media (max-width: 54em) {
+    .heading-secondary {
+        font-size: 3.2rem;
+    }
+    .container {
+        padding: 0 1.8rem;
+    }
+    .header-container {
+        padding: 0 1.8rem;
+    }
+    .toggle {
+        display: block;
+    }
+    .nav-links {
+        background: var(--bkclr);
+        width: 100%;
+        height: 100vh;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 5;
+        justify-content: center;
+        flex-direction: column;
+        gap: 6.2rem;
+        font-size: 3rem;
+        opacity: 0;
+        pointer-events: none;
+        visibility: hidden;
+        transition: 0.5s;
+    }
+    /* .nav-open.nav-links {
+        opacity: 1;
+        visibility: visible;
+        pointer-events: auto;
+    }
+    .nav-open .icon-mobile-nav[name="close"] {
+        display: block;
+        position: relative;
+        z-index: 5;
+      } */
+      .sec-why-right-box {
+        grid-template-columns: 1fr 1fr;
+      }
+      .sec-start-flex {
+        grid-template-columns: 1fr;
+        gap: 3.2rem;
+      }
+      .heading-secondary.mrgn-tp {
+        margin: 5.2rem 0 0 0;
+      }
+      .sec-start-btn-box {
+        justify-content: center;
+      }
+      .footer-grid {
+        grid-template-columns: 1.5fr 1fr;
+      }
+      .footer-grid-item4 {
+        grid-row: 2;
+        grid-column: 1;
+      }
+
+}
+
+/**********************************************/
+/* BELOW 529px*/
+/**********************************************/
+
+@media (max-width: 33em) {
+    .heading-primary {
+        font-size: 3.8rem;
+    }
+    .nav-btn {
+        display: none;
+    }
+    .crown-element {
+        top: 14%;
+    }
+    .hero-sm-circle {
+        top: 26%;
+    }
+    .hero-award-ele {
+        right: 11%
+    }
+    .free-courses-container {
+        right: 3%;
+    }
+    .student-enroll-box {
+        width: 14rem;
+        height: 14rem;
+        padding: 0.9rem;
+    }
+    .hero-graph-box {
+        gap: 1.2rem;
+    }
+    .student-enrol-heading {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+    .hero-graph-para {
+        font-size: 1rem;
+        margin-top: 1rem;
+    }
+    .sec-help-bg-cl {
+        left: 0%;
+    }
+    .sec-help-sm-cl-1 {
+        left: 22%;
+    }
+    .sec-help-sm-cl-2 {
+        right: 19%;
+    }
+    .sec-dis-heading-box {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 3.2rem;
+    }
+    .headg-box {
+        width: 100%;
+    }
+    .sec-dis-arrow-box {
+        align-self: flex-end;
+    }
+    .sec-start-btn {
+        padding: 1.8rem 2rem
+    }
+}
+/**********************************************/
+/* BELOW 429px*/
+/**********************************************/
+
+@media (max-width: 27em) {
+    .heading-primary {
+        font-size: 3rem;
+    }
+    .heading-secondary {
+        font-size: 2.4rem;
+    }
+    .sec-why-right-box {
+        grid-template-columns: 1fr;
+    }
+    .sec-start-btn-box {
+        gap: 2rem;
+        flex-direction: column;
+        margin: 0 0 5.2rem 0;
+    }
+    .footer-grid {
+        grid-template-columns: 1fr;
+      }
+      
+}
